@@ -1,0 +1,8 @@
+name: cml_mlflow
+
+docker_env:
+  image:  cml_mlflow_image
+  
+entry_points:
+  main:
+    command: "python mlflow_control.py"
